@@ -5,6 +5,7 @@ import bodyParser from "body-parser";
 import cookieParser from "cookie-parser"
 import cors from "cors"
 import authRoutes from "./routes/authRoutes.js"
+import userRoutes from "./routes/userRoutes.js"
 dotenv.config();
 const app = express();
 const PORT =process.env.PORT || 3050;
@@ -35,6 +36,7 @@ const allowedOrigins = [
   
 // Routes
 app.use("/api/auth", authRoutes);
+app.use("/api/user", userRoutes);
 
 
 
