@@ -85,7 +85,7 @@ const TourDetails = () => {
                 <img src={photo} alt={title} />
               </div>
               <div className=" my-8 overflow-hidden border-solid border-[2px] shadow-sm border-gray-200 rounded-md space-y-4 px-2 py-2 md:px-8 md:py-8 mx-auto">
-                <h2 className="text-[25px] md:text-[40px]  font-bold mb-4 text-center md:text-start text-BaseColor">
+                <h2 className="text-[25px] md:text-[40px]  font-bold mb-4 text-center md:text-start text-blue-600">
                   {title}
                 </h2>
                 <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-12">
@@ -249,7 +249,7 @@ const TourDetails = () => {
                         <span className="flex items-center gap-1">
                           {review.rating}
                           <i>
-                            <FaStar className="text-BaseColor" />
+                            <FaStar className="text-blue-600" />
                           </i>
                         </span>
                       </div>

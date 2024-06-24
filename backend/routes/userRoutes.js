@@ -11,7 +11,7 @@ import { verifyAdmin, verifyToken, verifyUser } from '../middleware/authMiddlewa
 const router = express.Router();
 
 // Get all users
-router.get('/users',verifyToken, verifyUser, getAllUsers);
+router.get('/users', verifyToken, verifyAdmin, getAllUsers);
 
 // Get a single user by ID
 router.get('/users/:id', verifyToken, verifyUser, getSingleUser);

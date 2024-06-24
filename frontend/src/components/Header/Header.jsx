@@ -49,8 +49,8 @@ const Header = () => {
   };
 
   return (
-    <header ref={headerRef} className="transition-all shadow-md duration-300 bg-sky-700" >
-      <nav className="container mx-auto px-5 flex justify-between items-center py-2">
+    <header ref={headerRef} className="transition-all shadow-md duration-300   bg-sky-700"  >
+      <nav className="container mx-auto px-5 flex justify-between items-center py-7  text-white font-light">
         {role === "admin" ? (
           <div className="h-8 md:h-12 md:hidden">
             <img src={Logo} alt="" className="h-full" />
@@ -142,16 +142,16 @@ const Header = () => {
 
         {role === "admin" ? (
           <ul className="md:flex hidden space-x-8">
-            <Link to="/all-booking">Bookings</Link>
-            <Link to="/all-tours">Tours</Link>
-            <Link to="/create">Create</Link>
+            <Link to="/all-booking" className="px-6 py-2  text-white rounded mx-auto hover:bg-gray-800">Bookings</Link>
+            <Link to="/all-tours" className="px-6 py-2  text-white rounded mx-auto hover:bg-gray-800">Tours</Link>
+            <Link to="/create" className="px-6 py-2  text-white rounded mx-auto hover:bg-gray-800">Create</Link>
           </ul>
         ) : (
-          <ul className="md:flex hidden space-x-4">
-            <Link to="/home">Home</Link>
-            <Link to="/tours">Tours</Link>
-            <Link to="/about">Gallery</Link>
-            <Link to="/contact">Contact</Link>
+          <ul className="md:flex hidden space-x-4 " >
+            <Link to="/home" className="px-6 py-2  text-white rounded mx-auto hover:bg-gray-800">Home</Link>
+            <Link to="/tours" className="px-6 py-2  text-white rounded mx-auto hover:bg-gray-800">Tours</Link>
+            <Link to="/about" className="px-6 py-2  text-white rounded mx-auto hover:bg-gray-800">Gallery</Link>
+            <Link to="/contact" className="px-6 py-2  text-white rounded mx-auto hover:bg-gray-800">Contact</Link>
           </ul>
         )}
 
@@ -174,7 +174,7 @@ const Header = () => {
           ) : (
             <>
               <Link to="/login">
-                <button className="px-4 py-2 text-BaseColor rounded hover:text-BHoverColor">
+                <button className="px-4 py-2 text-white rounded hover:bg-BHoverColor">
                   Login
                 </button>
               </Link>
