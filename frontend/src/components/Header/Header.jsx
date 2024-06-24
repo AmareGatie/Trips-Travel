@@ -53,7 +53,7 @@ const Header = () => {
       <nav className="container mx-auto px-5 flex justify-between items-center py-7  text-white font-light">
         {role === "admin" ? (
           <div className="h-8 md:h-12 md:hidden">
-            <img src={Logo} alt="" className="h-full" />
+            <img src={Logo} max-width="100%" alt="" className="h-full " />
           </div>
         ) : (
           <div className="h-8 md:h-12">
