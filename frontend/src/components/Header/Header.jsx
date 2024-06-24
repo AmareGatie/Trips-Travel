@@ -50,7 +50,7 @@ const Header = () => {
 
   return (
     <header ref={headerRef} className="transition-all shadow-md duration-300   bg-sky-700"  >
-      <nav className="container mx-auto px-5 flex justify-between items-center py-7  text-white font-light">
+      <nav className="container mx-auto px-5 flex justify-between items-center py-7  text-black-200 font-light">
         {role === "admin" ? (
           <div className="h-8 md:h-12 md:hidden">
             <img src={Logo} max-width="100%" alt="" className="h-full " />

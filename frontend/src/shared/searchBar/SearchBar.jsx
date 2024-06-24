@@ -60,7 +60,7 @@ const SearchBar = () => {
               />
             </div>
           </div>
-          <div className="form-group flex gap-3 md:form-group-fast">
+          <div className="form-group flex gap-3 md:form-group-fast ">
             <span>
               <i>
                 <IoIosPricetags />
@@ -83,7 +83,7 @@ const SearchBar = () => {
             </div>
           </div>
           <span
-            className="search-icon bg-BaseColor rounded-lg cursor-pointer py-2 px-2"
+            className="search-icon bg-blue-800  rounded-lg cursor-pointer py-2 px-2"
             type="submit"
             onClick={SubmitHandler}
           >
