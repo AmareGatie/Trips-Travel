@@ -20,22 +20,6 @@ mongoose
   .catch((err) => console.log(err));
 
 // Middleware for CORS and JSON parsing
-const allowedOrigins = [
-  "https://trips-travelfronend.vercel.app/",
-  "http://localhost:5173",
-  "http://localhost:3050"
-];
-app.use(
-  cors({
-    origin: function (origin, callback) {
-      if (!origin || allowedOrigins.includes(origin)) {
-        callback(null, true);
-      } else {
-        callback(new Error("Not allowed by CORS"));
-      }
-    },
-  })
-);
 app.use(express.json());
 app.use(cookieParser());
 app.use(bodyParser.json());
