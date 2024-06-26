@@ -7,7 +7,7 @@ const About = () => {
       {/* {Gallery Section Start} */}
       <section className="py-8 text-center px-6 md:px-12">
         <h1 className="text-[40px]  font-bold  ">
-          Our <span className="text-blue-600">Gallery</span>
+          Our <span className="text-BaseColor">Gallery</span>
         </h1>
         <p className="text-lg leading-8 mb-8 text-gray-800">
           "Unveil travel wonders in our gallery, a snapshot of TripsTravel's

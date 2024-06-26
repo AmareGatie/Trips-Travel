@@ -126,7 +126,7 @@ const Login = () => {
               <p className="text-sm md:text-base text-center">
                 Don't have an Account?{" "}
                 <Link
-                  className="text-blue-600 hover:text-BHoverColor"
+                  className="text-BaseColor hover:text-BHoverColor"
                   to="/register"
                 >
                   Register here

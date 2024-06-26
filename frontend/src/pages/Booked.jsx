@@ -13,9 +13,9 @@ const Booked = () => {
     <div>
       <div className="flex items-center flex-col justify-center min-h-[500px]">
         <i>
-          <FaCheckCircle size={45} className="text-blue-600 " />
+          <FaCheckCircle size={45} className="text-BaseColor " />
         </i>
-        <h2 className="text-[25px] md:text-[40px]  font-bold mb-4 text-start text-blue-600">
+        <h2 className="text-[25px] md:text-[40px]  font-bold mb-4 text-start text-BaseColor">
           Congratulations...!
         </h2>
         <h5 className="font-semibold text-[16px] md:text-[20px] pb-9">

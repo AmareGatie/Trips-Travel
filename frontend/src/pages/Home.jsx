@@ -26,7 +26,7 @@ const Home = () => {
             <div className="my-8">
               <h1 className="text-[33px] font-cursiveFont text-center md:text-[40px] md:text-start font-bold mb-4 ">
                 Plan Your Perfect Trip with{" "}
-                <span className="text-blue-600 text-[40px] font-cursiveFont">
+                <span className="text-BaseColor text-[40px] font-cursiveFont">
                   TripsTravel
                 </span>
               </h1>
@@ -69,7 +69,7 @@ const Home = () => {
           <div className="mb-6 flex-shrink-0 mx-4 flex-1 min-w-[30%]">
             <h2 className="text-[33px] md:text-[40px] font-cursiveFont font-bold mb-4 text-center">
               Our{" "}
-              <span className="text-blue-600 text-[43px] font-cursiveFont">
+              <span className="text-BaseColor text-[43px] font-cursiveFont">
                 Best Services
               </span>
             </h2>
@@ -87,7 +87,7 @@ const Home = () => {
       <section className="py-8 text-center px-6 md:px-12">
         <h1 className="text-[33px] md:text-[40px] font-cursiveFont font-bold mb-4 text-center">
           Our{" "}
-          <span className="text-blue-600 text-[40px] font-cursiveFont">
+          <span className="text-BaseColor text-[40px] font-cursiveFont">
             Gallery
           </span>
         </h1>
@@ -99,7 +99,7 @@ const Home = () => {
       </section>
       {/* {Gallery Section Ends} */}
       <section className="min-h-screen py-8 px-6 md:px-12">
-        <h1 className="text-[40px] md:text-[40px] font-cursiveFont font-bold mb-4 text-center text-blue-600">
+        <h1 className="text-[40px] md:text-[40px] font-cursiveFont font-bold mb-4 text-center text-BaseColor">
           Featured Tours
         </h1>
         <p className="para md:text-lg md:leading-8 md:text-gray-800">
@@ -118,7 +118,7 @@ const Home = () => {
           <div className="mx-auto text-center xl:w-[470px]">
             <h1 className="text-[33px] md:text-[40px] font-cursiveFont font-bold mb-4 text-center ">
               Our{" "}
-              <span className="text-blue-600 text-[40px] font-cursiveFont ">
+              <span className="text-BaseColor text-[40px] font-cursiveFont ">
                 Reviews
               </span>
             </h1>
@@ -141,7 +141,7 @@ const Home = () => {
             </div>
 
             <div className="w-full md:w-1/2">
-              <h2 className="text-3xl text-blue-600 font-cursiveFont  font-bold text-center">
+              <h2 className="text-3xl text-BaseColor font-cursiveFont  font-bold text-center">
                 Frequently Asked Question.
               </h2>
 
