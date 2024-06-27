@@ -50,7 +50,7 @@ const Header = () => {
 
   return (
     <header ref={headerRef} className="transition-all shadow-md duration-300 bg-sky-700" >
-      <nav className="container mx-auto px-5 flex justify-between items-center py-2">
+      <nav className="container mx-auto px-5 flex justify-between items-center py-6">
         {role === "admin" ? (
           <div className="h-8 md:h-12 md:hidden">
             <img src={Logo} alt="" className="h-full" />
@@ -67,7 +67,7 @@ const Header = () => {
           {user ? (
             <div className="flex gap-3 items-center">
               <Link
-                className="text-[18px] font-semibold text-BaseColor rounded hover:text-BHoverColor cursor-pointer"
+                className="text-[18px] font-semibold text-blue-600 rounded hover:text-BHoverColor cursor-pointer"
                 to={role === "user" && "/my-account"}
               >
                 {user.username}
@@ -127,7 +127,7 @@ const Header = () => {
               {user ? null : (
                 <div className="flex items-center justify-center gap-4">
                   <Link to="/login" onClick={handleMenuToggle}>
-                    <button className="text-BaseColor rounded hover:text-BHoverColor ">
+                    <button className="text-blue-600 rounded hover:text-BHoverColor ">
                       Login
                     </button>
                   </Link>
@@ -142,16 +142,16 @@ const Header = () => {
 
         {role === "admin" ? (
           <ul className="md:flex hidden space-x-8">
-            <Link to="/all-booking">Bookings</Link>
-            <Link to="/all-tours">Tours</Link>
-            <Link to="/create">Create</Link>
+            <Link to="/all-booking" className="px-4 py-2  text-white rounded  hover:bg-blue-950">Bookings</Link>
+            <Link to="/all-tours" className="px-4 py-2  text-white rounded  hover:bg-blue-950">Tours</Link>
+            <Link to="/create" className="px-4 py-2  text-white rounded  hover:bg-blue-950">Create</Link>
           </ul>
         ) : (
           <ul className="md:flex hidden space-x-4">
-            <Link to="/home">Home</Link>
-            <Link to="/tours">Tours</Link>
-            <Link to="/about">Gallery</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/home" className="px-4 py-2  text-white rounded  hover:bg-blue-950">Home</Link>
+            <Link to="/tours" className="px-4 py-2  text-white rounded hover:bg-blue-950">Tours</Link>
+            <Link to="/about" className="px-4 py-2  text-white rounded  hover:bg-blue-950">Gallery</Link>
+            <Link to="/contact" className="px-4 py-2 text-white rounded  hover:bg-blue-950">Contact</Link>
           </ul>
         )}
 
@@ -159,7 +159,7 @@ const Header = () => {
           {user ? (
             <div className="flex gap-3 items-center">
               <Link
-                className="text-[18px] font-semibold text-BaseColor rounded hover:text-BHoverColor cursor-pointer"
+                className="text-[18px] font-semibold text-blue-600 rounded hover:text-BHoverColor cursor-pointer"
                 to={role === "user" && "/my-account"}
               >
                 {user.username}
@@ -174,7 +174,7 @@ const Header = () => {
           ) : (
             <>
               <Link to="/login">
-                <button className="px-4 py-2 text-BaseColor rounded hover:text-BHoverColor">
+                <button className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 ">
                   Login
                 </button>
               </Link>

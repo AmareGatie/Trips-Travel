@@ -83,7 +83,7 @@ const SearchBar = () => {
             </div>
           </div>
           <span
-            className="search-icon bg-BaseColor rounded-lg cursor-pointer py-2 px-2"
+            className="search-icon bg-blue-900 rounded-lg cursor-pointer py-2 px-2"
             type="submit"
             onClick={SubmitHandler}
           >
