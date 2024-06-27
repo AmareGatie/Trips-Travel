@@ -18,10 +18,9 @@ mongoose
   .connect(process.env.MONGO_URL)
   .then(() => console.log("DB connected"))
   .catch((err) => console.log(err));
-
 // Middleware for CORS and JSON parsing
 const allowedOrigins = [
-  "https://trips-travel-nu.vercel.app",
+  "https://trips-travel-eight.vercel.app/",
   "http://localhost:5173",
   "http://localhost:3050"
 ];
