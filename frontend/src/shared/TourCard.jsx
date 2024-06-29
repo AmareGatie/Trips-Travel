@@ -38,7 +38,7 @@ const TourCard = ({ tour }) => {
             {title.length > 20 ? title.substring(0, 20) + "..." : title}
           </Link>
 
-          <p className="text-gray-700 text-base font-light overflow-hidden overflow-ellipsis">
+          <p className="text-gray-700 text-base font-light overflow-hidden overflow-ellipsis ">
             {desc.length > 80 ? desc.substring(0, 80) + "..." : desc}
           </p>
         </div>

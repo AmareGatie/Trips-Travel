@@ -45,7 +45,7 @@ const SearchTours = () => {
               ref={cityRef}
               onkeydown ={handleKeyPress}
               className="py-4 pl-4 bg-transparent w-full focus:outline-none  placeholder:text-TextColor"
-              placeholder="Search Doctor"
+              placeholder="Search Tour"
             />
             <button
               onClick={SubmitHandler}

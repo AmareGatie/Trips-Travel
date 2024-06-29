@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import FaqList from "../components/Faq/FaqList";
 import Testimonials from "../components/Testimonials/Testimonials";
-import faqImg from "../assets/images/experience.png";
+import faqImg from "../assets/images/faq.png";
 import ImagesGallery from "../components/Gallery/Gallery";
 
 const Home = () => {
