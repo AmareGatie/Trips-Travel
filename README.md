@@ -21,7 +21,6 @@ The **Trip Travel Management System** is a comprehensive application designed to
 
 - User authentication and authorization
 - Trip booking and itinerary management
-- Expense tracking
 - Reviews and ratings for trips
 - Notifications and alerts
 - User profile management
@@ -57,7 +56,6 @@ To set up the Trip Travel Management System locally, follow these steps:
 - **Homepage**: Browse available trips and read reviews.
 - **User Dashboard**: View and manage your booked trips and itineraries.
 - **Booking**: Book a new trip by selecting destinations, dates, and preferences.
-- **Expense Tracker**: Track and manage your travel expenses.
 - **Profile**: Update personal information and view your travel history.
 
 ## Technologies Used
@@ -85,7 +83,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any questions or inquiries, please contact us at:
-- Email: contact@triptm.com
+- Email: amaregatie2006@gmail.com
 - GitHub: [AmareGatie](https://github.com/AmareGatie)
 
 ---
