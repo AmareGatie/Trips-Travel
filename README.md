@@ -15,7 +15,7 @@
 
 ## Introduction
 
-The **Trip Travel Management System** is a comprehensive application designed to help users plan and manage their trips efficiently. The system allows users to book trips, manage itineraries, track expenses, and share travel experiences.
+The **Trip Travel Management System** is a comprehensive application designed to help users plan and manage their trips efficiently. The system allows users to book trips, manage itineraries, and share travel experiences.
 
 ## Features
 
