@@ -121,7 +121,7 @@ const TourDetails = () => {
                     <i>
                       <FaDollarSign />
                     </i>
-                    <span>Rs. {price}/per head</span>
+                    <span>{price}/per head</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <i>

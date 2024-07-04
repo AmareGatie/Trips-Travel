@@ -46,7 +46,7 @@ const TourCard = ({ tour }) => {
       <div className="flex items-center justify-between px-6 ">
         <p className="text-sm font-semibold mb-3">
           Starts From <br />
-          <span className="text-xl">Rs. {price}</span>
+          <span className="text-xl">{price}</span>
         </p>
         <Link to={`/tours/${_id}`} className="btn text-sm">
           Book Now

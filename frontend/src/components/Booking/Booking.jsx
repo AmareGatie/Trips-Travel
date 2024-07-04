@@ -126,7 +126,7 @@ const Booking = ({ price, title, reviewsArray, avgRating }) => {
           <div className="mt-12">
             <div className="flex my-4 justify-between">
               <span>Gross Price: </span>
-              <p className="font-semibold">Rs. {price}</p>
+              <p className="font-semibold">{price}</p>
             </div>
             <div className="flex my-4 border-b-[1px] pb-2 border-black justify-between">
               <span>GST: </span>
@@ -134,7 +134,7 @@ const Booking = ({ price, title, reviewsArray, avgRating }) => {
             </div>
             <div className="flex my-6 justify-between font-bold text-lg">
               <span>Net Price: </span>
-              <p>Rs. {calculatedPrice}</p>
+              <p>{calculatedPrice}</p>
             </div>
           </div>
           <button type="submit" className="btn w-full">
